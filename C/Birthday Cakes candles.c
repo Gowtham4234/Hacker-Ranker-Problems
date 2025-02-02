@@ -24,9 +24,7 @@ int main(){
             count=1;        
         }else if (candles[i]==Max) {
             count++;
-        
         }
-    
     }
     printf("%d",count);
     return 0;
