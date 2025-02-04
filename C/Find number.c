@@ -2,7 +2,7 @@
 #define MAX 100
 int main(){
 
-    int a,n,target,found =0;
+    int n,target,found =0;
     int arr[MAX];
 
     printf("N=");
@@ -19,17 +19,16 @@ int main(){
     for (int i = 0; i <n; i++)
     {
         if (arr[i]==target){   
-            a=i;
+        
+            printf("Element is found at the position %d",i+1);
             found =1;
             break;
         }
     }
 
-    if (found ==1)
+    if (found !=1)
     {
-        printf("Element is found at the position %d",a+1);
-    }else
-    {
+    
         printf("Element not found");
     }
 
