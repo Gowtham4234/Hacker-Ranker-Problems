@@ -31,8 +31,5 @@ int main(){
         printf("Total girls mark:%d",g);
     }
     
-    
-
-
     return 0;
 }
